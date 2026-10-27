@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahd Magdy | Frontend Developer</title>
+<meta name="description" content="Shahd Magdy – Frontend Developer (HTML, CSS, JavaScript, React) available for freelance projects: landing pages, responsive websites and React web apps.">
+<meta name="theme-color" content="#0b0d12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glow" id="glow"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo">shahd<span>.dev</span></a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+  <nav class="links" id="links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact" class="pill">Hire me ✦</a>
+  </nav>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-text">
+    <span class="status"><b></b> Open for freelance projects</span>
+    <h1>Hi, I'm <em>Shahd</em> <span class="wave">👋</span><br>I build <span class="typed" id="typed"></span></h1>
+    <p>Frontend developer who turns ideas into clean, fast and responsive websites with HTML, CSS, JavaScript and React. I also bring a business mindset from my BIS studies, so the result works for your users, not just looks good.</p>
+    <div class="cta">
+      <a href="#projects" class="btn">See my work →</a>
+      <a href="#contact" class="btn ghost">Let's talk</a>
+    </div>
+    <ul class="mini-stats">
+      <li><b data-count="40" data-suffix="+">0</b><span>coding tasks at ITI</span></li>
+      <li><b data-count="20" data-suffix="+">0</b><span>certified courses</span></li>
+      <li><b data-count="8" data-suffix="+">0</b><span>projects built</span></li>
+    </ul>
+  </div>
+
+  <div class="hero-art">
+    <div class="ring"></div>
+    <div class="photo"><img src="ME.jpeg" alt="Shahd Magdy" width="600" height="900"></div>
+    <span class="chip c1">&lt;html/&gt;</span>
+    <span class="chip c2">React ⚛</span>
+    <span class="chip c3">CSS ✨</span>
+    <span class="chip c4">JS {}</span>
+    <span class="note">based in Egypt 🇪🇬</span>
+  </div>
+</section>
+
+<!-- ============ TECH MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Bootstrap</span><span>Responsive Design</span><span>REST APIs</span><span>React Router</span><span>Context API</span>
+    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Bootstrap</span><span>Responsive Design</span><span>REST APIs</span><span>React Router</span><span>Context API</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec" id="about">
+  <div class="head reveal"><small>01 — about</small><h2>A little about me</h2></div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p class="lead">I'm a Business Information Systems student at Tanta University who fell in love with building things for the web.</p>
+      <p>I completed a 144-hour <b>ITI</b> Web Development track (JavaScript, React, Bootstrap) with 40+ hands-on tasks, and I'm now continuing with the <b>DEPI</b> React Frontend track. Before that I interned at <b>CIB</b>, worked in media and social design, and joined student organizations like Hult Prize, EYE, Enactus and UCCD.</p>
+      <p>That mix means I understand code <i>and</i> people: I listen to what your project needs, build it carefully, and communicate clearly all the way to delivery.</p>
+      <div class="cta">
+        <a href="Shahd_Magdy_CV.pdf" download class="btn">Download CV ↓</a>
+        <a href="https://linkedin.com/in/shahdmagdy-84b4582a0" target="_blank" rel="noopener" class="btn ghost">LinkedIn</a>
+      </div>
+    </div>
+    <div class="about-cards">
+      <div class="card tilt reveal"><span>🎓</span><h3>Education</h3><p>B.Com – Business Information Systems, Tanta University (2023–2027) · GPA 3.5</p></div>
+      <div class="card tilt reveal"><span>🚀</span><h3>Training</h3><p>ITI Web Development (JavaScript &amp; React) · DEPI React Frontend Track</p></div>
+      <div class="card tilt reveal"><span>🏦</span><h3>Experience</h3><p>Banking intern at CIB · Media &amp; montage at EYE · Social media at Hult Prize</p></div>
+      <div class="card tilt reveal"><span>🤝</span><h3>Teamwork</h3><p>Built the Movie App with a 5-person team during the ITI summer training program.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="sec alt" id="services">
+  <div class="head reveal"><small>02 — services</small><h2>What I can build for you</h2><p>Pick a service, or tell me your idea and we'll shape it together. Extra features can always be added on request.</p></div>
+  <div class="services">
+    <article class="svc tilt reveal">
+      <div class="ico">🚀</div>
+      <h3>Landing Pages</h3>
+      <p>A focused, eye-catching one-page site that explains your offer and gets people to act.</p>
+      <ul><li>Responsive on all screens</li><li>Smooth animations &amp; sections</li><li>Contact / booking form</li></ul>
+    </article>
+    <article class="svc tilt reveal">
+      <div class="ico">🌐</div>
+      <h3>Responsive Websites</h3>
+      <p>Portfolio, personal brand or small-business sites that look great on mobile, tablet and desktop.</p>
+      <ul><li>Multi-section layout</li><li>Clean, readable code</li><li>Fast loading</li></ul>
+    </article>
+    <article class="svc tilt reveal">
+      <div class="ico">⚛️</div>
+      <h3>React Web Apps</h3>
+      <p>Interactive apps with reusable components, routing, state management and API data.</p>
+      <ul><li>Search, filters &amp; pagination</li><li>Watchlist / cart / favourites</li><li>Multi-language support</li></ul>
+    </article>
+    <article class="svc tilt reveal">
+      <div class="ico">🎨</div>
+      <h3>Design → Code</h3>
+      <p>Send me your Figma, PSD or mockup and I'll turn it into a pixel-careful HTML/CSS/JS page.</p>
+      <ul><li>Matches your design</li><li>Reusable CSS</li><li>Cross-browser tested</li></ul>
+    </article>
+    <article class="svc tilt reveal">
+      <div class="ico">🔧</div>
+      <h3>Fix &amp; Upgrade a Site</h3>
+      <p>Already have a website? I fix layout bugs, make it mobile-friendly and add new features.</p>
+      <ul><li>Responsive fixes</li><li>JavaScript features</li><li>Cleanup &amp; speed-ups</li></ul>
+    </article>
+    <article class="svc tilt reveal">
+      <div class="ico">🧩</div>
+      <h3>Interactive Features</h3>
+      <p>Forms with validation, carts, to-do lists, dark mode, custom video players and more.</p>
+      <ul><li>Vanilla JS or React</li><li>Local storage</li><li>Accessible &amp; tidy</li></ul>
+    </article>
+  </div>
+  <div class="also reveal">
+    <b>Beyond code, I also help with:</b>
+    <span>📊 Data analysis</span><span>🤖 AI tools for business</span><span>📱 Digital marketing content</span><span>🎬 Video montage</span><span>🖼 Social media graphics</span>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="sec" id="process">
+  <div class="head reveal"><small>03 — process</small><h2>How we'll work together</h2></div>
+  <ol class="steps">
+    <li class="reveal"><b>1</b><h3>Brief</h3><p>You tell me your idea, goals and any designs or references you like.</p></li>
+    <li class="reveal"><b>2</b><h3>Plan</h3><p>I confirm the scope, sections and features, so everything is clear before I start.</p></li>
+    <li class="reveal"><b>3</b><h3>Build</h3><p>I build it step by step and share progress so you can give feedback early.</p></li>
+    <li class="reveal"><b>4</b><h3>Deliver</h3><p>You get clean, organized files ready to upload, plus support for small fixes.</p></li>
+  </ol>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="sec alt" id="projects">
+  <div class="head reveal"><small>04 — projects</small><h2>Things I've built</h2><p>Click any project to see more.</p></div>
+  <div class="filters reveal" id="filters"></div>
+  <div class="projects" id="projectGrid"></div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="sec" id="skills">
+  <div class="head reveal"><small>05 — skills</small><h2>My toolbox</h2></div>
+  <div class="skills-wrap">
+    <!-- To edit: change the words inside the <span> chips. Add a chip by copying one <span>. -->
+    <div class="stack reveal">
+      <div class="stack-group">
+        <h3>Languages</h3>
+        <div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>Frameworks &amp; libraries</h3>
+        <div class="chips"><span>React</span><span>React Router</span><span>Context API</span><span>Bootstrap</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>Frontend practice</h3>
+        <div class="chips"><span>Responsive design</span><span>REST APIs (TMDB)</span><span>DOM &amp; Local Storage</span><span>Forms &amp; validation</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>Data &amp; office</h3>
+        <div class="chips"><span>Excel</span><span>Access</span><span>Word</span><span>PowerPoint</span><span>Data analysis</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>AI &amp; business</h3>
+        <div class="chips"><span>Generative AI</span><span>AI agents &amp; automation</span><span>Banking exposure (CIB)</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>Working style</h3>
+        <div class="chips"><span>Teamwork</span><span>Clear communication</span><span>Freelancing basics</span><span>Entrepreneurship</span></div>
+      </div>
+    </div>
+    <div class="timeline reveal">
+      <h3>My journey</h3>
+      <ul>
+        <li><time>Aug – Sep 2026</time><b>ITI Web Development Track</b><span>144 hours · JavaScript &amp; React · 40+ tasks</span></li>
+        <li><time>2026 – now</time><b>DEPI React Frontend Track</b><span>Digital Egypt Pioneers Initiative</span></li>
+        <li><time>2024 – 2026</time><b>Banking Intern, CIB</b><span>3 internship rounds</span></li>
+        <li><time>2024 – now</time><b>Media &amp; Social, EYE and Hult Prize</b><span>4+ videos and 4+ designs every month</span></li>
+        <li><time>2023 – 2027</time><b>Business Information Systems</b><span>Tanta University · GPA 3.5</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATES ============ -->
+<section class="sec alt" id="certificates">
+  <div class="head reveal"><small>06 — certificates</small><h2>Learning that backs the work</h2><p>Click any certificate to see the original.</p></div>
+  <div class="cert-featured" id="certFeatured"></div>
+  <div class="cert-more-bar reveal"><button class="btn ghost" id="certToggle" aria-expanded="false" aria-controls="certMore">More certificates <span id="certCount"></span> ↓</button></div>
+  <div class="cert-more" id="certMore" hidden></div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="sec contact" id="contact">
+  <div class="contact-box reveal">
+    <div>
+      <small>07 — contact</small>
+      <h2>Got an idea?<br><em>Let's build it.</em></h2>
+      <p>Tell me a little about your project and I'll get back to you as soon as I can.</p>
+      <ul class="reach">
+        <li>📧 <a href="mailto:shahdmagdyelshora@gmail.com">shahdmagdyelshora@gmail.com</a></li>
+        <li>💬 <a href="https://wa.me/201114232867" target="_blank" rel="noopener">WhatsApp: +20 111 423 2867</a></li>
+        <li>💼 <a href="https://linkedin.com/in/shahdmagdy-84b4582a0" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li>📍 Gharbia, Egypt</li>
+      </ul>
+    </div>
+    <form id="contactForm">
+      <label>Your name<input name="name" required placeholder="Jane Doe"></label>
+      <label>Email<input name="email" type="email" required placeholder="you@email.com"></label>
+      <label>What do you need?
+        <select name="service">
+          <option>Landing page</option><option>Responsive website</option><option>React web app</option>
+          <option>Design to code</option><option>Fix / upgrade my site</option><option>Something else</option>
+        </select>
+      </label>
+      <label>Project details<textarea name="msg" rows="4" required placeholder="Tell me about your idea…"></textarea></label>
+      <button class="btn" type="submit">Send message →</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>© <span id="year">2026</span> Shahd Magdy · Built with HTML, CSS &amp; JS by me 💛</span>
+  <a href="#home">Back to top ↑</a>
+</footer>
+
+<!-- project modal -->
+<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <button class="close" id="mClose" aria-label="Close">✕</button>
+    <img id="mImg" alt="">
+    <div class="modal-body">
+      <div class="tags" id="mTags"></div>
+      <h3 id="mTitle"></h3>
+      <p id="mDesc"></p>
+      <ul id="mFeat"></ul>
+      <div class="cta" id="mLinks"></div>
+    </div>
+  </div>
+</div>
+
+<!-- certificate lightbox -->
+<div class="modal lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Certificate preview">
+  <div class="lb-inner">
+    <button class="close" id="lbClose" aria-label="Close">✕</button>
+    <img id="lbImg" alt="">
+    <p id="lbCap"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
